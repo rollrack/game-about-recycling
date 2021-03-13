@@ -35,7 +35,6 @@ public class PlayerController : MonoBehaviour
     }
     void FixedUpdate()
     {
-
         if (Input.GetButtonDown("Jump") && isGrounded())
         {
             Jump();
@@ -44,17 +43,13 @@ public class PlayerController : MonoBehaviour
         bool isGrounded()
         {
             Collider2D groundcheck = Physics2D.OverlapCircle(feet.position, 0.5f, groundLayers);
-            if(groundcheck.gameObject != null)
-            {
-                return true;
-            }
-            return false;
+            return groundcheck.gameObject != null;
         }
 
         void Jump()
         {
             Vector2 movement = new Vector2(rb.velocity.x, jumpForce);
             rb.velocity = movement;
-        }
+        }   
     }
 }

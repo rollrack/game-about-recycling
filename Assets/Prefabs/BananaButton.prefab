@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1751095108711425846}
   - component: {fileID: 2360834835562772431}
   - component: {fileID: 2501616550910269192}
+  - component: {fileID: -7978053289356487024}
   m_Layer: 5
   m_Name: BananaButton
   m_TagString: Untagged
@@ -74,3 +75,16 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &-7978053289356487024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5067829269308644314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a3d629256d90a74c9811eeb0e8725e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 5029579199766218095, guid: f24bc814a0bebf74c9ae0222af2fd7a0, type: 3}

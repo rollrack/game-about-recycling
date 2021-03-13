@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4218598451667827134}
   - component: {fileID: 4758453235601721460}
   - component: {fileID: 5040910034635524222}
+  - component: {fileID: -886867855063053819}
   m_Layer: 5
   m_Name: ColaButton
   m_TagString: Untagged
@@ -74,3 +75,16 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &-886867855063053819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7691903193007520318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a3d629256d90a74c9811eeb0e8725e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 8170112525865550328, guid: 3a8da2eb5b9491a419c49ec8bc9995aa, type: 3}

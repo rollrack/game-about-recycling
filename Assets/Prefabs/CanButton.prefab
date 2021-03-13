@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4331927511754242584}
   - component: {fileID: 4331927511754242587}
   - component: {fileID: 4331927511754242586}
+  - component: {fileID: -624874267344755081}
   m_Layer: 5
   m_Name: CanButton
   m_TagString: Untagged
@@ -118,3 +119,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-624874267344755081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4331927511754242580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a3d629256d90a74c9811eeb0e8725e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 2016909074969408889, guid: aaacaae6aa7a9d745ada502aac583b15, type: 3}

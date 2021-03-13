@@ -45,7 +45,6 @@ public class PlayerController : MonoBehaviour
             Collider2D groundcheck = Physics2D.OverlapCircle(feet.position, 0.5f, groundLayers);
             return groundcheck.gameObject != null;
         }
-
         void Jump()
         {
             Vector2 movement = new Vector2(rb.velocity.x, jumpForce);

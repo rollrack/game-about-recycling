@@ -11,24 +11,24 @@ public class PlayerController : MonoBehaviour
     float horizontalMove = 0f;
     public LayerMask groundLayers;
     public Transform feet;
+    public Animator animator;
     void Update()
     {
         horizontalMove = mw = Input.GetAxisRaw("Horizontal");
-        {
-            Vector2 movement = new Vector2(mw * movementSpeedMultiplier, rb.velocity.y);
-            rb.velocity = movement;
-        }
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        Vector2 movement = new Vector2(mw * movementSpeedMultiplier, rb.velocity.y);
+        rb.velocity = movement;
 
         Vector3 characterScale = transform.localScale;
 
         if (Input.GetAxisRaw("Horizontal") < 0)
         {
-            characterScale.x = -2;
+            characterScale.x = -0.06f;
         }
 
         else if (Input.GetAxisRaw("Horizontal") > 0)
         {
-            characterScale.x = 2;
+            characterScale.x = 0.06f;
         }
 
         transform.localScale = characterScale;
